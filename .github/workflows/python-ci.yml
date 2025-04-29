@@ -21,6 +21,3 @@ jobs:
           pip install -r requirements.txt
 
       - run: python main.py
-
-# Workflow Retention (add this outside the jobs section)
-retention-days: 14
